@@ -2,6 +2,26 @@
 # yarn lockfile v1
 
 
+"@babel/helper-plugin-utils@^7.16.7":
+  version "7.16.7"
+  resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.16.7.tgz#aa3a8ab4c3cceff8e65eb9e73d87dc4ff320b2f5"
+  integrity sha512-Qg3Nk7ZxpgMrsox6HreY1ZNKdBq7K72tDSliA6dCl5f007jR4ne8iD5UzuNnCJH2xBf2BEEVGr+/OL6Gdp7RxA==
+
+"@babel/plugin-proposal-do-expressions@^7.16.7":
+  version "7.16.7"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-do-expressions/-/plugin-proposal-do-expressions-7.16.7.tgz#80f55a0397a3899d562dd0f54ed926717b246817"
+  integrity sha512-IFa27vSFJgVV6p9HN8TBHPIZdd0v3YplR7dRwzM6fSf2R46HrDPOpaH5KwAqOIedMPAo149hC4M1swu42pValw==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.16.7"
+    "@babel/plugin-syntax-do-expressions" "^7.16.7"
+
+"@babel/plugin-syntax-do-expressions@^7.16.7":
+  version "7.16.7"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-do-expressions/-/plugin-syntax-do-expressions-7.16.7.tgz#3e14c076687742d251a326611e7254e243d966bc"
+  integrity sha512-y1Z8konmSeZu1c2ClWvNIY9iGwKtzUzRFGt10A0d2WdOfajBj3RwOPeW8RTN+L7Ag8WQdifeAQxBDrqXO7TZhg==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.16.7"
+
 "@babel/runtime-corejs3@^7.10.2":
   version "7.17.9"
   resolved "https://registry.yarnpkg.com/@babel/runtime-corejs3/-/runtime-corejs3-7.17.9.tgz#3d02d0161f0fbf3ada8e88159375af97690f4055"
