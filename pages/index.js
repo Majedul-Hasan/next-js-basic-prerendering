@@ -1,9 +1,6 @@
 import axios from 'axios'
 
 
-
-
-
 const Home = (props) => {
 
   
@@ -21,8 +18,6 @@ const Home = (props) => {
       }
       </ul>
 
-
-      
     
      
     </div>
@@ -33,6 +28,16 @@ const Home = (props) => {
 
 export async function getStaticProps(){
   const request  = await axios.get('https://jsonplaceholder.typicode.com/users')
+
+
+  // not found error
+  if(request.data.length <1 ){
+    return {
+      redirect:{
+        destination: '/notfound-page'
+              }
+    }
+  }
 
   //console.log(request);
   return {
