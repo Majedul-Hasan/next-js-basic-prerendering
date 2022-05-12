@@ -42,7 +42,8 @@ export async function getStaticProps(){
       theRequest: request.data
 
 
-    }
+    },
+    revalidate: 60            // incremental static regeneration
   }
 }
 
